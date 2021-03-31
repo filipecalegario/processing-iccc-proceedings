@@ -3,7 +3,7 @@ from glob import glob
 
 conferences = ['iccc2010', 'iccc2011', 'iccc2012', 'iccc2013', 'iccc2014', 'iccc2015', 'iccc2016', 'iccc2017', 'iccc2018', 'iccc2019', 'iccc2020']
 
-path_to_files = "/Volumes/SDDMTL/ICCC Proceedings - Exploration/"
+path_to_files = "/Volumes/SDDMTL/ICCC_Proceedings_-_Exploration/"
 
 def find_ext(dir, ext):
     return glob(path.join(dir,f'*.{ext}'))
